@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Pangolin-Regular';
+    src: url("Pangolin-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Ponter S';
+    src: url("20138.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Leto Text Sans Defect';
+    src: url("Leto Text Sans Defect.otf") format("truetype");
+}
+@font-face {
+    font-family: 'etna-free-font';
+    src: url("etna-free-font.ttf") format("truetype");
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 50px;
+    }
+}
+
+body{
+    background-image: url("Без названия.jpg");
+    width:100%;
+    background-size:100%;
+    margin: 0;
+
+
+}
+
+.main-body {
+    background-attachment: fixed;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1571.ani), url(https://ani.cursors-4u.net/games/gam-16/gam1571.png), auto !important;} /* End https://www.cursors-4u.com */
+
+
+.hidden-block {
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width:100%;
+    font-size: 30px;
+    font-family: "Ponter S", Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    animation-duration: 2s;
+    animation-name: slidein;
+    background: -webkit-linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
+    background: -moz-linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0) 100%);
+
+
+}
+body:hover{
+
+}
+.main_text{
+    color:black;
+    margin: 0;
+    margin-left: 50px;
+    font-size: 100px;
+    font-family:etna-free-font,Arial, sans-serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+
+
+
+
+}
+
+
+.zag{
+    color: #ba0202;
+    margin-top: 500px;
+    margin-left: 500px;
+    font-size: 40px;
+}
+.str1_buttons:hover{
+    margin-left:40px;
+    margin-top: 60px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    text-decoration: none;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main2{
+    background-color:black;
+    width:100%;
+    font-size: 30px;
+    font-family: "Ponter S", Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    animation-duration: 2s;
+    animation-name: slidein;
+
+
+}
+.home{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url("15766.png");
+
+}
+.home2{
+    text-decoration: none;
+    font-family: "Leto Text Sans Defect",Arial, sans-serif;
+    background-image: url("15766.png");
+}
+.main_text2 {
+    color:black;
+    margin: 0;
+    font-size: 100px;
+    font-family: etna-free-font, Arial, sans-serif;
+    text-align: center;
+    margin: 100px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.str1_buttons{
+    text-decoration: none;
+    animation-name: rotateCircle2;
+    animation-duration: 1s;
+
+}
+.pelmen{
+    margin-right: 300px;
+}
+.main_pelmen{
+    font-family: "Ponter S", Arial, sans-serif;
+    color: black;
+    padding: 20px;
+    background-image: url("1629977588_png.png");
+    background-size: 2000px;
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+.nety_text{
+    font-size: 4px;
+}
+.nety{
+    margin-left: 1800px;
+}
+.main_img{
+ padding-left: 20px;
+}
+.links{
+    margin-left: 700px;
+}
+
+

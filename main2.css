@@ -1,0 +1,36 @@
+body {
+    background-color: #193c6d;
+    filter: progid: DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#003073', endColorstr='#029797');
+    background-image: url(//img.alicdn.com/tps/TB1d.u8MXXXXXXuXFXXXXXXXXXX-1900-790.jpg);
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #3d0677), color-stop(100%, #000000));
+    background-image: -webkit-linear-gradient(135deg, #3d0677, #000000);
+    background-image: -moz-linear-gradient(45deg, #3d0677, #000000);
+    background-image: -ms-linear-gradient(45deg, #3d0677 0, #000000 100%);
+    background-image: -o-linear-gradient(45deg, #3d0677, #000000);
+    background-image: linear-gradient(135deg, #3d0677, #000000);
+    text-align: center;
+    margin: 0px;
+    overflow: hidden;
+}
+.main_pelmen{
+    font-family: "Ponter S", Arial, sans-serif;
+    color: black;
+    padding: 20px;
+    background-image: url("1629977588_png.png");
+    background-size: 2000px;
+    font-size: 30px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+.home{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url("15766.png");
+
+}
